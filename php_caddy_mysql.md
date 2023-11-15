@@ -113,6 +113,11 @@ Then go back using the default authentication method:
 ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
 ```
 
+You can now exit:
+```
+exit
+```
+
 ============================================================================
 
 ## Composer
@@ -151,6 +156,22 @@ Install npm:
 sudo apt install npm
 ```
 
+Update NodeJS to the latest version using nvm:<br>
+Install nvm:
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+```
+
+Restart bash:
+```
+source ~/.bashrc
+```
+
+Now update node:
+```
+nvm install node
+```
+
 ===========================================================================
 
 ## Git
@@ -166,3 +187,4 @@ sudo apt install git
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
+> **!** Make sure to to change the email with yours
