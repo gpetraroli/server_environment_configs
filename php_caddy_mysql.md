@@ -49,6 +49,11 @@ Besides PHP itself, you will likely want to install some additional PHP modules.
 sudo apt install php8.1-PACKAGE_NAME
 ```
 
+To enable PHP support for Caddy, you need to install PHP-FPM:
+```
+sudo apt install php8.2-fpm
+```
+
 Here are a few suggestions of the most common modules you will most likely want to install:
 
 ```
