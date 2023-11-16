@@ -1,4 +1,8 @@
-# Server environment with:
+[Index](../README.md) > Configure a VPS with Caddy, PHP, MySQL
+
+# Configure a VPS with Caddy, PHP, MySQL
+
+This section will guide you through the installation of the following packages:
 - Ubuntu 22.04
 - Caddy
 - PHP 8.2

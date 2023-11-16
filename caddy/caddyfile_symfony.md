@@ -1,4 +1,6 @@
-# Configure Caddyfile to serve a Symfony application
+[Index](../README.md) > [Deploy a Symfony application in a Caddy enviroment](./deploy_symfony_caddy.md) > Caddyfile for a Symfony application
+
+# Caddyfile for a Symfony application
 
 Open the Caddyfile with a text editor:
 ```

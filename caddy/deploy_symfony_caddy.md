@@ -1,4 +1,6 @@
-# Deploy a Symfony with Caddy server
+[Index](../README.md) > Deploy a Symfony application in a Caddy enviroment
+
+# Deploy a Symfony application in a Caddy enviroment
 
 If folder /var/www does not exists create it:
 ```
