@@ -9,8 +9,8 @@ sudo nano /etc/caddy/Caddyfile
 
 Add this directives (change the hosts, the path to your project public directory, and your email):
 ```
-example.com, www.example.com {
-    root * /var/www/project/public
+old.antoine-dumez.com {
+    root *  /var/www/my_web_cv/public/
 
     # decomment this line if you want to associate this email to the TLS certificate
     #tls your_email@email.com
@@ -35,3 +35,7 @@ Restart Caddy service:
 ```
 sudo systemctl restart caddy
 ```
+
+===========================================================================
+>> Now you should have a working Symfony application in a Caddy enviroment!
+>>### Back to the index : [Index](../README.md)
