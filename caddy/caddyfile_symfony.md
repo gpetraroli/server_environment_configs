@@ -9,8 +9,8 @@ sudo nano /etc/caddy/Caddyfile
 
 Add this directives (change the hosts, the path to your project public directory, and your email):
 ```
-old.antoine-dumez.com {
-    root *  /var/www/my_web_cv/public/
+example.com, www.example.com {
+    root * /var/www/project/public
 
     # decomment this line if you want to associate this email to the TLS certificate
     #tls your_email@email.com
