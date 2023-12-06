@@ -26,10 +26,8 @@ sudo apt update
 sudo apt install caddy
 ```
 
-> **!** Check if Caddy is up and running:
->```
-sudo systemctl status caddy
->```
+Check if Caddy is up and running:
+>```sudo systemctl status caddy```
 
 ============================================================================
 
@@ -50,7 +48,7 @@ sudo apt install --no-install-recommends php8.2
 Besides PHP itself, you will likely want to install some additional PHP modules. You can use this command to install additional modules, replacing PACKAGE_NAME with the package you wish to install:
 
 ```
-sudo apt install php8.1-PACKAGE_NAME
+sudo apt install php8.2-PACKAGE_NAME
 ```
 
 To enable PHP support for Caddy, you need to install PHP-FPM:
@@ -192,3 +190,8 @@ sudo apt install git
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 > **!** Make sure to to change the email with yours
+
+===========================================================================
+>> Now you have a VPS with Caddy, PHP, MySQL, Composer, Node and Git installed and configured. Next step is to deploy a Symfony application in this enviroment.
+>> ### Next: [Deploy a Symfony application in a Caddy enviroment](./deploy_symfony_caddy.md)
+>> ### Back to the index : [Index](../README.md)

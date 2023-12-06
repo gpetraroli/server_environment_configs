@@ -35,7 +35,7 @@ Change the project's var/log and var/cache directory permissions:
 chmod -R 777 ./var/log
 chmod -R 777 ./var/cache
 ```
-> **NOTE:** This is not the best way to change permissions; the most safe and recommended way is by using ACL, see [Symfony documentation](https://symfony.com/doc/current/setup/file_permissions.html#configuring-permissions-for-symfony-applications) 
+> **NOTE:** This is not the best way to change permissions; the most safe and recommended way is by using ACL, see [Symfony documentation](https://symfony.com/doc/current/setup/file_permissions.html#configuring-permissions-for-symfony-applications)
 
 Install npm dependencies and build assets:
 ```
@@ -49,6 +49,8 @@ php bin/console d:d:c
 php bin/console d:m:m
 ```
 
-Finally configure the Caddyfile: [link](./configure_caddyfile_symfony.md)
+===========================================================================
+>> Now you just need to configure your CaddyFile before enjoy your Symfony application!
+>>### Next: [Configure the Caddyfile](./caddyfile_symfony.md)
+>>### Back to the index : [Index](../README.md)
 
-Enjoy your Symfony application!

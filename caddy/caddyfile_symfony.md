@@ -35,3 +35,7 @@ Restart Caddy service:
 ```
 sudo systemctl restart caddy
 ```
+
+===========================================================================
+>> Now you should have a working Symfony application in a Caddy enviroment!
+>>### Back to the index : [Index](../README.md)

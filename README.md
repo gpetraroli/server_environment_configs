@@ -1,6 +1,8 @@
-# Server configs collections
+<div style="width: 100%;">
+    <img src="./asset/images/header.svg" style="width: 100%;" alt="Click to see the source">
+</div>
 
-This repository contains various notes on server side configurations.
+# Server configs collections
 
 ## Table of contents
 - Caddy
@@ -12,8 +14,7 @@ This repository contains various notes on server side configurations.
     - [Configure a VPS with Apache, PHP, MySQL](./apache/apache_php_mysql.md)
 
 ## Contributing
-Feel free to make a Pull Request to this repository if you find any error, or you'll like to add more content.
-
+Feel free to make a Pull Request to this repository if you find any error or you'll like to add more content.
 How to make a Pull Request:
 1. Fork this repository
 2. Clone your forked repository
